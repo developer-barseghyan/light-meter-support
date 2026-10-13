@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Light Meter: Lux & Exposure — Support</title><meta name="description" content="Support, FAQ and contact for Light Meter: Lux & Exposure, the iOS light meter for film cameras and lux measurement.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+:root{--bg:#111111;--surface:#1C1C1C;--border:#2E2E2E;--text:#F4F2EC;--muted:#A9A49A;--accent:#F2B84B}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"IBM Plex Sans",system-ui,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:720px;margin:0 auto;padding:40px 20px 64px}
+header{display:flex;align-items:center;gap:14px;margin-bottom:8px}
+.logo{width:44px;height:44px;flex:none}
+header .name{font-size:15px;font-weight:600}
+header .name span{color:var(--muted);font-weight:400}
+nav{display:flex;gap:6px;margin:18px 0 36px;flex-wrap:wrap}
+nav a{font-size:14px;padding:8px 14px;border-radius:10px;background:var(--surface);border:1px solid var(--border);color:var(--text);text-decoration:none}
+nav a[aria-current]{background:var(--text);color:var(--bg);border-color:var(--text)}
+h1{font-size:28px;line-height:1.2;margin:0 0 8px;font-weight:600}
+.lede{color:var(--muted);margin:0 0 32px;font-size:17px}
+h2{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:36px 0 10px;font-weight:600}
+p{margin:0 0 14px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px 20px;margin-bottom:12px}
+.card h3{font-size:16px;margin:0 0 6px;font-weight:600}
+.card p{margin:0;color:var(--muted)}
+.card p+p{margin-top:8px}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code,.mono{font-family:"IBM Plex Mono",monospace;font-size:.95em}
+.badge{display:inline-block;font-size:12px;font-weight:600;padding:4px 8px;border-radius:6px;background:rgba(242,184,75,.18);color:var(--accent);margin-bottom:14px}
+ul{padding-left:20px;margin:0 0 14px}li{margin-bottom:6px}
+footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--border);color:var(--muted);font-size:13px}
+footer a{color:var(--muted)}
+</style></head>
+<body><div class="wrap">
+<header><svg class="logo" viewBox="0 0 100 100" aria-hidden="true"><defs><clipPath id="c"><circle cx="50" cy="50" r="46"/></clipPath></defs><g clip-path="url(#c)"><circle cx="50" cy="50" r="46" fill="#F4F2EC"/><line x1="49.3" y1="67.8" x2="-28.8" y2="22.7" stroke="#111111" stroke-width="2.81"/><line x1="34.3" y1="58.3" x2="34.3" y2="-31.9" stroke="#111111" stroke-width="2.81"/><line x1="35.0" y1="40.5" x2="113.0" y2="-4.6" stroke="#111111" stroke-width="2.81"/><line x1="50.7" y1="32.2" x2="128.8" y2="77.3" stroke="#111111" stroke-width="2.81"/><line x1="65.7" y1="41.7" x2="65.7" y2="131.9" stroke="#111111" stroke-width="2.81"/><line x1="65.0" y1="59.5" x2="-13.0" y2="104.6" stroke="#111111" stroke-width="2.81"/><polygon points="50.0,66.6 35.7,58.3 35.7,41.7 50.0,33.4 64.3,41.7 64.3,58.3" fill="#F2B84B"/></g></svg><div class="name">Light Meter: Lux &amp; Exposure <span>· iOS</span></div></header>
+<nav><a href="index.html" aria-current="page">Support</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+
+<h1>Support</h1>
+<p class="lede">A light meter for film cameras and a lux meter for everything else, in one app. The camera is the sensor; nothing leaves your phone.</p>
+
+<h2>Contact</h2>
+<p>Questions, bug reports and feedback: <a href="mailto:developer.barseghyan@gmail.com">developer.barseghyan@gmail.com</a>. We usually reply within two business days. If you report a wrong reading, please include your iPhone model, the lighting (sunlight, overcast, indoor LED) and what a reference meter or camera showed.</p>
+
+<h2>FAQ</h2>
+<div class="card"><h3>How accurate is it?</h3><p>A phone camera is a good meter, not a lab instrument. With the automatic profile the expected error is about ±1/2 stop (±25% lux). After you calibrate against your own lux meter or camera, about ±1/3 stop (±10%). The app always shows its expected error next to the reading.</p></div>
+<div class="card"><h3>How do I calibrate?</h3><p>Settings → Calibration. Put the phone next to your lux meter, screen up, so both see the same light, or compare an exposure reading with your camera's built-in meter, then enter what yours shows and tap Apply correction. Outdoors in direct midday sun you can also run the Sunny 16 check: expect about EV 15 at ISO 100.</p></div>
+<div class="card"><h3>Spot or average, and why does the reading change when I move?</h3><p>Spot meters the small circle; average meters the whole frame, centre-weighted. Long-press the circle to switch. A spot meter reacts to what is inside the circle, so moving from a bright wall to a dark doorway changes the reading by several stops. Point at one surface, hold still for a second, then read or tap Hold.</p></div>
+<div class="card"><h3>Why do I lock one of aperture and shutter?</h3><p>Light is one number (EV); aperture and shutter are two settings that can produce it. You choose the one that matters for the picture (aperture for depth of field, shutter for motion) and the app meters the other. The "Same exposure" row lists every pair that gives the same exposure; tap one to use it.</p></div>
+<div class="card"><h3>Which camera for lux?</h3><p>Lux mode uses the front camera by default: lay the phone flat, screen up, where the light lands. Switch to the rear camera to measure the light on a surface you point at.</p></div>
+<div class="card"><h3>What does Pro include and how do I restore it?</h3><p>Pro is a one-time purchase, no subscription: unlimited cameras, films and saved readings, reciprocity correction for long exposures, colour temperature in Lux mode, CSV export, and future Pro features. To restore on a new phone, open Settings → Restore purchases while signed in with the same Apple Account.</p></div>
+<div class="card"><h3>Reciprocity correction?</h3><p>Film loses sensitivity during long exposures (reciprocity failure). For exposures of 1 s and longer, Pro applies the film's published correction and shows the extra stops under the shutter value. Films marked "approximate" use a generic curve.</p></div>
+<div class="card"><h3>The reading says "ranging" or "low light".</h3><p>"Ranging" means the camera is adjusting its exposure to the scene; wait a moment. "Low light" means the scene is near the camera's limit, so expect about ±1/2 stop. Very bright direct light sources (the sun, a bare bulb) can clip and are not meterable; meter a lit surface instead.</p></div>
+<div class="card"><h3>Does the app collect any data?</h3><p>No. No account, no analytics, no ads, no network access. Readings stay on your phone. See the <a href="privacy.html">Privacy Policy</a>.</p></div>
+
+<footer>Light Meter: Lux &amp; Exposure is developed by Tigran Barseghyan. Contact: <a href="mailto:developer.barseghyan@gmail.com">developer.barseghyan@gmail.com</a><br>
+<a href="index.html">Support</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a></footer>
+</div></body></html>
